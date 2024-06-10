@@ -1,0 +1,16 @@
+{% extends 'articles/layout.html' %}
+
+{% block content %}
+    <h3>Edit Article</h3>
+
+    <form action="{% url 'articles:edit_article' article.id %}" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Save">
+    </form>
+
+    <a href="{% url 'articles:article' article.id %}">
+      <button>Cancelar</button>
+    </a>
+
+{% endblock %}

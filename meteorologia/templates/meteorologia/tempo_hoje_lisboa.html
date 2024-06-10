@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'meteorologia/estilos_lisboa.css' %}">
+    <meta charset="UTF-8">
+    <title>Tempo em Lisboa</title>
+</head>
+<body>
+    <h1>Previsão do Tempo para Hoje em Lisboa</h1>
+    <img src="{{ icon_url }}">
+    <p>Descrição do Tempo: {{ weather_desc }}</p>
+    <p>Temperatura Mínima: {{ min_temp }}°C</p>
+    <p>Temperatura Máxima: {{ max_temp }}°C</p>
+    <p>Data: {{ date }}</p>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'meteorologia/estilos_hoje.css' %}">
+    <script src="https://kit.fontawesome.com/7a414a4d6e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Tempo para hoje</title>
+    <!-- Adicione estilos adicionais conforme necessário -->
+</head>
+<body>
+    <header> <h1>Tempo Para Hoje</h1>  </header>
+    <div class="card">
+        <div class="info">
+            <img src="{{ icon_url }}">
+            <p><strong>Descrição do Tempo:</strong> {{ weather_desc }}</p>
+            <p><strong>Temperatura Mínima:</strong> {{ min_temp }}°C</p>
+            <p><strong>Temperatura Máxima:</strong> {{ max_temp }}°C</p>
+            <p><strong>Data:</strong> {{ date }}</p>
+        </div>
+    </div>
+    <p><a href = "{% url 'meteorologia:cidades' %}"> Menu </a></p>
+    <p></p>
+</body>
+</html>

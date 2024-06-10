@@ -1,0 +1,39 @@
+{% extends 'festivais/layout.html' %}
+
+{% block content %}
+
+    <h2>Lisboa</h2>
+
+    <ul>
+        {% for festival in festivais_Lisboa %}
+
+            <li><a href = "{% url 'festivais:festival' festival.id %}">{{festival.nome}} </a>
+
+                {% for banda in bandas %}
+
+                     {{banda.nome}},
+
+                {% endfor %}
+            </li>
+
+        {% endfor %}
+    </ul>
+
+    <h2>Zambujeira do Mar</h2>
+
+    <ul>
+        {% for festival in festivais_Zambujeira_do_Mar %}
+
+            <li><a href = "{% url 'festivais:festival' festival.id %}">{{festival.nome}}</a>
+
+                {% for banda in bandas %}
+
+                     {{banda.nome}},
+
+                {% endfor %}
+            </li>
+
+        {% endfor %}
+    </ul>
+
+{% endblock %}

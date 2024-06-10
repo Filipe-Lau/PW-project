@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <script src="https://kit.fontawesome.com/7a414a4d6e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'autenticação/estilosUser.css' %}">
+</head>
+<body>
+    <header>
+        <h1>User</h1>
+    </header>
+
+    <main>
+         <h3>Bem-vindo, {{request.user.first_name}} {{request.user.last_name}}</h3>
+
+        <ul>
+            <li>Username: {{request.user.username}}</li>
+            <li>Email: {{request.user.email}}</li>
+        </ul>
+
+        <a href="{% url 'portfolio:landing_page' %}">Home</a>
+        <a href="{% url 'meteorologia:cidades' %}">Meteorologia</a>
+        <a href="{% url 'bandas:index' %}">Bandas</a>
+        <a href="{% url 'cursos:index' %}">Cursos</a>
+        <a href="{% url 'articles:index' %}">Artigos</a>
+        <a href="{% url 'autenticação:logout' %}">Logout</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Autenticação</p>
+    </footer>
+</body>
+</html>

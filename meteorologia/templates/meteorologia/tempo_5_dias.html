@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'meteorologia/estilos5dias.css' %}">
+    <meta charset="UTF-8">
+    <title>Tempo para os próximos 5 dias</title>
+</head>
+<body>
+    <h1>Tempo Para Os Próximos 5 Dias</h1>
+    {% for day in weather_data %}
+    <div>
+        <img src= "{{ day.icon_url }}" alt="Icone do Tempo">
+        <p>Descrição do Tempo: {{ day.weather_desc }}</p>
+        <p>Temperatura Mínima: {{ day.tMin }}°C</p>
+        <p>Temperatura Máxima: {{ day.tMax }}°C</p>
+        <p>Data: {{ day.forecastDate }}</p>
+    </div>
+    {% endfor %}
+
+    <p><a href = "{% url 'meteorologia:cidades' %}"> Menu </a></p>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Estilos para a página de previsão do tempo */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 2px solid #1c86ee;
+}
+
+img {
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p:nth-child(3),
+p:nth-child(4) {
+    font-weight: bold;
+}
+
+p:nth-child(5) {
+    font-style: italic;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 20px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}

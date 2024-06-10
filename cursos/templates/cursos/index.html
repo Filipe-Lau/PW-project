@@ -1,0 +1,59 @@
+<html>
+    <head>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'cursos/estilos.css' %}">
+        <script src="https://kit.fontawesome.com/7a414a4d6e.js" crossorigin="anonymous"></script>
+        <title>Cursos</title>
+        <style>
+            body {
+                background: white;
+            }
+        </style>
+    </head>
+    <body>
+        <a href = "{% url 'portfolio:landing_page' %}"> <i class="fa-solid fa-house"></i> </a>
+        <header>
+            <h1>Cursos</h1>
+
+        </header>
+
+    <main>
+        <h2> Cursos de Engenharia Informática </h2>
+
+        <ul>
+            {% for curso in cursos %}
+
+                <h3>LEI</h3>
+
+                <a href = "{% url 'cursos:disciplinas' curso.id  %}">Disciplinas</a>
+                {% if user.is_authenticated and perms.bandas.change_banda %}
+                <small><a href ="{% url 'cursos:edita_curso' curso.id %}">(Editar)</a></small>
+                {% endif %}
+
+                <li>
+                    <p>{{ curso.apresentacao }}</p>
+                </li>
+
+                <li>
+                   <p>{{ curso.objetivos }}</p>
+                </li>
+
+                <li>
+                    <p>{{ curso.competencias }}</p>
+                </li>
+
+            {% endfor %}
+        </ul>
+
+    </main>
+
+
+    {% if user.is_authenticated and perms.cursos.create_curso %}
+        <a href="{% url 'cursos:novo_curso' %}"><button>Inserir novo Curso</button></a>
+    {% endif %}
+
+        <footer>
+            <p>&copy; 2024 Cursos</p>
+        </footer>
+    </body>
+</html>

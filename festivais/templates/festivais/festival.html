@@ -1,0 +1,20 @@
+{% extends 'festivais/layout.html' %}
+
+{% block content %}
+<strong><h2>{{festival.nome}},{{festival.localizacao.cidade}}</h2></strong>
+
+<p>Bandas:</p>
+
+<ul>
+    {% for banda in bandas %}
+        <li>
+        {{banda.nome}}
+        </li>
+
+    {% endfor %}
+</ul>
+ <p> <img src = '{{festival.capa.url}}' width = "300"></p>
+
+<a href = "{% url 'festivais:festivais' %}">Lista de festivais</a>
+
+{% endblock %}

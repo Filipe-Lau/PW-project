@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Disciplinas</title>
+        <style>
+            body {
+                background: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Disciplinas de LEI</h1>
+        </header>
+
+    <main>
+
+        <ul>
+            <h2>1º Ano</h2>
+
+            {% for disciplina in disciplinas_1_ano %}
+
+             <p><a href = "{% url 'cursos:disciplina' disciplina.id  %}"> {{disciplina.nome}} </a></p>
+                {% if user.is_authenticated and perms.cursos.change_disciplina %}
+                    <small><a href ="{% url 'cursos:edita_disciplina' disciplina.id %}">(Editar)</a></small>
+                {% endif %}
+
+            {% endfor %}
+
+
+            <h2>2º Ano</h2>
+
+            {% for disciplina in disciplinas_2_ano %}
+
+             <p><a href = "{% url 'cursos:disciplina' disciplina.id  %}"> {{disciplina.nome}} </a></p>
+                {% if user.is_authenticated and perms.cursos.change_disciplina %}
+                    <small><a href ="{% url 'cursos:edita_disciplina' disciplina.id %}">(Editar)</a></small>
+
+                {% endif %}
+
+            {% endfor %}
+
+
+            <h2>3º Ano</h2>
+
+            {% for disciplina in disciplinas_3_ano %}
+
+             <p><a href = "{% url 'cursos:disciplina' disciplina.id  %}"> {{disciplina.nome}} </a></p>
+                {% if user.is_authenticated and perms.cursos.change_disciplina %}
+                    <small><a href ="{% url 'cursos:edita_disciplina' disciplina.id %}">(Editar)</a></small>
+
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+    </main>
+
+        <footer>
+            <p>&copy; 2024 Cursos</p>
+        </footer>
+    </body>
+</html>

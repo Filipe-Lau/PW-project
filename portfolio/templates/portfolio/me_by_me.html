@@ -1,0 +1,29 @@
+{% extends 'portfolio/layout.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'portfolio/estilos.css' %}">
+    <div class="caixa">
+        <div class="section">
+            <h2>Sobre Mim</h2>
+            <p>O meu nome é Filipe, tenho 20 anos e sou um aluno da Universidade Lusófona. Estou no meu 2º ano a estudar Engenharia Informática!</p>
+        </div>
+        <div class="section">
+            <h2>Interesses</h2>
+            <p>Eu gosto de programar, viajar, subir montanhas no verão na Polónia, fazer desporto e ouvir música.</p>
+        </div>
+        <div class="section">
+            <h2>Aptidões e Competências</h2>
+            <div class="skills">
+                <div class="skill">Programação</div>
+                <div class="skill">Trabalho em Equipa</div>
+                <div class="skill">Resolução de Problemas</div>
+                <div class="skill">Flexibilidade/Adaptabilidade</div>
+                <div class="skill">Cozinhar</div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Experiência</h2>
+            <p>Tenho experiência em programar em várias linguagens de programação como: JAVA, PYTHON, C, KOTLIN e muitas outras.</p>
+        </div>
+    </div>
+{% endblock %}

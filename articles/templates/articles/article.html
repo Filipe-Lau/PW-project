@@ -1,0 +1,25 @@
+{% extends 'articles/layout.html' %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'articles/estilos.css' %}">
+
+    <h1>{{article.title}}
+    {% if request.user.is_authenticated %}
+      <a href = "{% url 'articles:edit_article' article.id %}">Edit</a>
+    {% endif %}
+    </h1>
+
+    <p>Escrito por: {{article.author}} </p>
+
+    <p>{{article.body}}</p>
+
+    <p>Comentários:</p>
+
+    <p>{{article.comments}}</p>
+
+    <p>Rating: {{article.rating}}</p>
+
+
+
+{% endblock %}

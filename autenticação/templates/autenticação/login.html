@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'autenticação/estilosLogin.css' %}">
+    <title>Autenticação</title>
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <main>
+
+    <form action="{% url 'autenticação:login' %}" method="post">
+      {% csrf_token %}
+      <input type="text" name="username" placeholder="Username..">
+      <input type="password" name="password" placeholder="Palavra-chave..">
+      <input type="submit">
+    </form>
+
+    <a href="{% url 'autenticação:register' %}">
+      <button>Registar</button>
+    </a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Autenticação</p>
+    </footer>
+</body>
+</html>
+
+
+
+

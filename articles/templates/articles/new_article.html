@@ -1,0 +1,13 @@
+{% extends 'articles/layout.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'articles/estilos.css' %}">
+    <h3>New Article</h3>
+
+    <form action="" method="post">
+      {% csrf_token %}
+      {{ form.as_ul }}
+      <input type="submit" value="Create">
+    </form>
+
+{% endblock %}

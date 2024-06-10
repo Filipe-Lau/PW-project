@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="{% static 'portfolio/estilos.css' %}">
+  <script src="{% static 'portfolio/scripts.js' %}" defer></script>
+  <script src="https://kit.fontawesome.com/7a414a4d6e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('https://t3.ftcdn.net/jpg/05/30/11/14/360_F_530111474_fZUf6DIMCOgvtkCfJHWLZVvagcdMQnvG.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="{% url 'portfolio:landing_page' %}"> <i class="fa-solid fa-house"></i></a>
+            <p>Menu</p>
+          </li>
+          <li><a href="{% url 'portfolio:me_by_me' %}"> <i class="fa-solid fa-address-card"></i></a>
+            <p>Me by Me</p>
+          </li>
+          <li><a href="{% url 'portfolio:sobre' %}"> <i class="fa-solid fa-circle-info"></i></a>
+            <p>Sobre</p>
+          </li>
+          <li><a href="{% url 'portfolio:automacao' %}"> <i class="fa-solid fa-gears"></i></a>
+            <p>Automação</p>
+          </li>
+          <li><a href="{% url 'meteorologia:cidades' %}"> <i class="fa-solid fa-cloud-sun"></i></a>
+            <p>Meteorologia</p>
+          </li>
+          <li><a href="{% url 'bandas:index' %}"> <i class="fa-solid fa-guitar"></i></a>
+            <p>Bandas</p>
+          </li>
+          <li><a href="{% url 'cursos:index' %}"> <i class="fa-solid fa-graduation-cap"></i></a>
+            <p>Cursos</p>
+          </li>
+          <li><a href="{% url 'articles:index' %}"> <i class="fa-solid fa-newspaper"></i></a>
+            <p>Artigos</p>
+          </li>
+          <li><i id="myicon" class="fas fa-moon" data-mode="OFF"></i>
+            <p>Dark Mode</p>
+          </li>
+        </ul>
+        <ul>
+          {% if not user.is_authenticated %}
+          <li><a href="{% url 'autenticação:login' %}"> <i class="fa-regular fa-user"></i></a>
+            <p>Login</p>
+          </li>
+          {% else %}
+          <li><a href="{% url 'autenticação:logout' %}"> <i class="fa-solid fa-right-from-bracket"></i></a>
+            <p>Logout</p>
+          </li>
+          {% endif %}
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+  </div>
+</body>
+
+</html>

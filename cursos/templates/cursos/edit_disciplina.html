@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Disciplina</title>
+</head>
+<body>
+    <header>
+        <h1>Editar Disciplina</h1>
+    </header>
+
+    <main>
+      <form action="{% url 'cursos:edita_disciplina' disciplina.id %}" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Guardar">
+    </form>
+
+    <a href="{% url 'cursos:index' %}">
+      <button>Cancelar</button>
+    </a>
+
+    <a href="{% url 'cursos:apaga_disciplina' disciplina.id %}">
+      <button>Apagar Disciplina</button>
+    </a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cursos</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{% extends 'bandas/layout.html' %}
+{% block content %}
+<body class = "musica"></body>
+    <h3>Edita Musica</h3>
+
+    <form action="{% url 'bandas:edita_musica' musica.id %}" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Guardar">
+    </form>
+
+    <a href="{% url 'bandas:musica' musica.id %}">
+      <button>Cancelar</button>
+    </a>
+
+    <a href="{% url 'bandas:apaga_musica' musica.id %}">
+      <button>Apagar Musica</button>
+    </a>
+
+{% endblock %}

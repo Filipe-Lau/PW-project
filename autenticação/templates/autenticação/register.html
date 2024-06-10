@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'autenticação/estilosRegister.css' %}">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+
+    <main>
+        <form action="{% url 'autenticação:register' %}" method="post">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="O seu username..">
+            <input type="text" name="nome" placeholder="O seu nome..">
+            <input type="text" name="apelido" placeholder="O seu apelido..">
+            <input type="email" name="email" placeholder="O seu email..">
+            <input type="password" name="password" placeholder="Defina a sua Palavra-chave..">
+            <input type="submit" value="Criar">
+        </form>
+
+        <a href="{% url 'autenticação:login' %}">Cancelar</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Autenticação</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+

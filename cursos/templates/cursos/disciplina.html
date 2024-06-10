@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>{{disciplina.nome}}</title>
+        <style>
+            body {
+                background: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href = "{% url 'cursos:index' %}">Menu</a>
+            <h1>{{disciplina.nome}}</h1>
+        </header>
+
+    <main>
+
+    <ul>
+        <p>{{disciplina.semestre}}</p>
+        <p>ECTS: {{disciplina.ects}}</p>
+    </ul>
+
+    </main>
+
+        <footer>
+            <p>&copy; 2024 Cursos</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Curso</title>
+</head>
+<body>
+    <header>
+        <h1>Novo Curso</h1>
+    </header>
+
+    <main>
+      <form action="{% url 'cursos:novo_curso' curso.id %}" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Guardar">
+    </form>
+
+    <a href="{% url 'cursos:index' %}">
+      <button>Cancelar</button>
+    </a>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cursos</p>
+    </footer>
+</body>
+</html>

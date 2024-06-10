@@ -1,0 +1,258 @@
+[
+    {
+        "titulo": "Abbey Road",
+        "ano_lancamento": 1969,
+        "banda": "The Beatles",
+        "musicas": [
+            {"titulo": "Come Together", "duracao": "4:20", "spotify_link": "https://open.spotify.com/track/0a7BloCiNzLDD9qSQHhaoq"},
+            {"titulo": "Something", "duracao": "3:03", "spotify_link": "https://open.spotify.com/track/1QPY3dp6AbMg2tcM8ZRSu8"},
+            {"titulo": "Maxwell's Silver Hammer", "duracao": "3:27", "spotify_link": "https://open.spotify.com/track/4vJSRQSPzrUIPTavIqq9vH"},
+            {"titulo": "Oh! Darling", "duracao": "3:26", "spotify_link": "https://open.spotify.com/track/6d5NcL67ne3YWc2M0kRqox"},
+            {"titulo": "Octopus's Garden", "duracao": "2:51", "spotify_link": "https://open.spotify.com/track/6P6DxX8TNoENhEYNgHCPeX"},
+            {"titulo": "I Want You (She's So Heavy)", "duracao": "7:47", "spotify_link": "https://open.spotify.com/track/5gYo8zIwfOTR3uKcUX4fpT"}
+        ]
+    },
+    {
+        "titulo": "A Night at the Opera",
+        "ano_lancamento": 1975,
+        "banda": "Queen",
+        "musicas": [
+            {"titulo": "Death on Two Legs (Dedicated to...)", "duracao": "3:43", "spotify_link": "https://open.spotify.com/track/7LEkDoNS2EhAp7ZUa3z1m9"},
+            {"titulo": "Lazing on a Sunday Afternoon", "duracao": "1:07", "spotify_link": "https://open.spotify.com/track/1o3zcACuGfXsOIju3s42u7"},
+            {"titulo": "'39", "duracao": "3:30", "spotify_link": "https://open.spotify.com/track/1grE2ZcCft0wrtfof3AhcG"},
+            {"titulo": "You're My Best Friend", "duracao": "2:52", "spotify_link": "https://open.spotify.com/track/7wTp3I3ndPnM05tSI7YE1e"},
+            {"titulo": "Bohemian Rhapsody", "duracao": "5:55", "spotify_link": "https://open.spotify.com/track/7tFiyTwD0nx5a1eklYtX2J"},
+            {"titulo": "Love of My Life", "duracao": "3:38", "spotify_link": "https://open.spotify.com/track/6kRB3JzMWfMf3bSdfozA5V"}
+        ]
+    },
+    {
+        "titulo": "Nevermind",
+        "ano_lancamento": 1991,
+        "banda": "Nirvana",
+        "musicas": [
+            {"titulo": "Smells Like Teen Spirit", "duracao": "5:01", "spotify_link": "https://open.spotify.com/track/3DI2j9eO7hY5jI3O1BwvBm"},
+            {"titulo": "In Bloom", "duracao": "4:15", "spotify_link": "https://open.spotify.com/track/5TNRN5Gy5upA6Jmb5gBbrR"},
+            {"titulo": "Come as You Are", "duracao": "3:38", "spotify_link": "https://open.spotify.com/track/0XUfyU2QviPAs6bxSpXYG4"},
+            {"titulo": "Breed", "duracao": "3:03", "spotify_link": "https://open.spotify.com/track/5f50yfSrw5m7aVCLmBKWYZ"},
+            {"titulo": "Lithium", "duracao": "4:17", "spotify_link": "https://open.spotify.com/track/3drcEo3LHVtJMUkBJun88g"},
+            {"titulo": "Polly", "duracao": "2:56", "spotify_link": "https://open.spotify.com/track/4rRta9Wq3gv6FNUmJWkCYa"}
+        ]
+    },
+    {
+        "titulo": "Metallica",
+        "ano_lancamento": 1991,
+        "banda": "Metallica",
+        "musicas": [
+            {"titulo": "Enter Sandman", "duracao": "5:31", "spotify_link": "https://open.spotify.com/track/5pKJtX4wBeby9qIfFhyOJj"},
+            {"titulo": "Sad but True", "duracao": "5:24", "spotify_link": "https://open.spotify.com/track/2MIvMzjDg3fcBzDEBEc0qT"},
+            {"titulo": "Holier Than Thou", "duracao": "3:47", "spotify_link": "https://open.spotify.com/track/3wbASrlfWe4oUwH56NzIKl"},
+            {"titulo": "The Unforgiven", "duracao": "6:27", "spotify_link": "https://open.spotify.com/track/6CptRd56ZIZ2gkhjvKxuWa"},
+            {"titulo": "Wherever I May Roam", "duracao": "6:44", "spotify_link": "https://open.spotify.com/track/6j7hih15x2lTbAKcnLytYl"},
+            {"titulo": "Nothing Else Matters", "duracao": "6:29", "spotify_link": "https://open.spotify.com/track/4Ks9qPuii7pRGzg4Jw5W5f"}
+        ]
+    },
+    {
+        "titulo": "Back in Black",
+        "ano_lancamento": 1980,
+        "banda": "AC/DC",
+        "musicas": [
+            {"titulo": "Hells Bells", "duracao": "5:12", "spotify_link": "https://open.spotify.com/track/7fxx2Rp2Yf5b6JJWPSDEJG"},
+            {"titulo": "Shoot to Thrill", "duracao": "5:17", "spotify_link": "https://open.spotify.com/track/1cn42o2RX2vPEvFYZFvr4Y"},
+            {"titulo": "What Do You Do for Money Honey", "duracao": "3:35", "spotify_link": "https://open.spotify.com/track/4rnb6wKdSqgzvn5B7LPoJk"},
+            {"titulo": "Given the Dog a Bone", "duracao": "3:12", "spotify_link": "https://open.spotify.com/track/2T9GtS6fNmvkMogI5fcHLC"},
+            {"titulo": "Let Me Put My Love into You", "duracao": "4:15", "spotify_link": "https://open.spotify.com/track/1WTs3rRB0lFXVJnrfq4OY4"},
+            {"titulo": "Back in Black", "duracao": "4:14", "spotify_link": "https://open.spotify.com/track/1TfqLAPs4K3s2rJMoCokcS"}
+        ]
+    },
+    {
+        "titulo": "The Dark Side of the Moon",
+        "ano_lancamento": 1973,
+        "banda": "Pink Floyd",
+        "musicas": [
+            {"titulo": "Speak to Me", "duracao": "1:30", "spotify_link": "https://open.spotify.com/track/6lumj1Z5Y1PphArHGbMz3m"},
+            {"titulo": "Breathe", "duracao": "2:43", "spotify_link": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5"},
+            {"titulo": "On the Run", "duracao": "3:30", "spotify_link": "https://open.spotify.com/track/1M0kPy5QZo2gwOc7mj18Ye"},
+            {"titulo": "Time", "duracao": "7:06", "spotify_link": "https://open.spotify.com/track/0AaJNvseME9G8zFshgyJQz"},
+            {"titulo": "The Great Gig in the Sky", "duracao": "4:47", "spotify_link": "https://open.spotify.com/track/4CvZAwJHevU1dWCFCXZpQq"},
+            {"titulo": "Money", "duracao": "6:23", "spotify_link": "https://open.spotify.com/track/6A1WjUz8Y1xvd0T0Kv1dSu"}
+        ]
+    },
+    {
+        "titulo": "Sticky Fingers",
+        "ano_lancamento": 1971,
+        "banda": "The Rolling Stones",
+        "musicas": [
+            {"titulo": "Brown Sugar", "duracao": "3:50", "spotify_link": "https://open.spotify.com/track/2vDV0T8sxxHi4yAWJUcT8v"},
+            {"titulo": "Sway", "duracao": "3:50", "spotify_link": "https://open.spotify.com/track/2V38XWBRYCWBumYXhjdvMx"},
+            {"titulo": "Wild Horses", "duracao": "5:42", "spotify_link": "https://open.spotify.com/track/0RwXq8F8n0hpQJpBwSgXFS"},
+            {"titulo": "Can't You Hear Me Knocking", "duracao": "7:14", "spotify_link": "https://open.spotify.com/track/1gXdO4H4dA3IhHj5v4u1wu"},
+            {"titulo": "You Gotta Move", "duracao": "2:32", "spotify_link": "https://open.spotify.com/track/6I93XQolFcWwt0XYrJnNbG"},
+            {"titulo": "Bitch", "duracao": "3:38", "spotify_link": "https://open.spotify.com/track/6xVANfIl4SC3jnIzyS0hSV"}
+        ]
+    },
+    {
+        "titulo": "Led Zeppelin IV",
+        "ano_lancamento": 1971,
+        "banda": "Led Zeppelin",
+        "musicas": [
+            {"titulo": "Black Dog", "duracao": "4:55", "spotify_link": "https://open.spotify.com/track/5S7VftG8YmVgQpM6JFDNkA"},
+            {"titulo": "Rock and Roll", "duracao": "3:40", "spotify_link": "https://open.spotify.com/track/3KfbEIOC7YIv90FIfNSZpo"},
+            {"titulo": "The Battle of Evermore", "duracao": "5:51", "spotify_link": "https://open.spotify.com/track/3CCD8Wm3XKWaCTuQqH2N51"},
+            {"titulo": "Stairway to Heaven", "duracao": "8:02", "spotify_link": "https://open.spotify.com/track/3iVcZ5G6tvkXZkZKlMpIUs"},
+            {"titulo": "Misty Mountain Hop", "duracao": "4:38", "spotify_link": "https://open.spotify.com/track/3hTuXaKZLjBj0wE5m5wRrA"},
+            {"titulo": "Four Sticks", "duracao": "4:44", "spotify_link": "https://open.spotify.com/track/6BF9rrnbIVORxHXxRfPuw8"}
+        ]
+    },
+    {
+        "titulo": "The Joshua Tree",
+        "ano_lancamento": 1987,
+        "banda": "U2",
+        "musicas": [
+            {"titulo": "Where the Streets Have No Name", "duracao": "5:37", "spotify_link": "https://open.spotify.com/track/2xbSwFJ8qQKgB6vbFFSa13"},
+            {"titulo": "I Still Haven't Found What I'm Looking For", "duracao": "4:37", "spotify_link": "https://open.spotify.com/track/0T3ZvGKlmYmVsDzBJAXK8C"},
+            {"titulo": "With or Without You", "duracao": "4:56", "spotify_link": "https://open.spotify.com/track/2Gra1LvK8MZoKZQxRQng5q"},
+            {"titulo": "Bullet the Blue Sky", "duracao": "4:32", "spotify_link": "https://open.spotify.com/track/3ZFwuJ4vR0RHrCb3jqsP7z"},
+            {"titulo": "Running to Stand Still", "duracao": "4:17", "spotify_link": "https://open.spotify.com/track/2jogQTZzyJZQAfLD9R7PDj"},
+            {"titulo": "Red Hill Mining Town", "duracao": "4:54", "spotify_link": "https://open.spotify.com/track/5FvQIYnE2nBmDNvV9gMoy4"}
+        ]
+    },
+    {
+        "titulo": "Paranoid",
+        "ano_lancamento": 1970,
+        "banda": "Black Sabbath",
+        "musicas": [
+            {"titulo": "War Pigs", "duracao": "7:54", "spotify_link": "https://open.spotify.com/track/4P5KoWXOxwuobLmHXLMobV"},
+            {"titulo": "Paranoid", "duracao": "2:50", "spotify_link": "https://open.spotify.com/track/6qQwloJUJ8IISDl4v9v9Xb"},
+            {"titulo": "Planet Caravan", "duracao": "4:32", "spotify_link": "https://open.spotify.com/track/5sZW1aDxS7zZUe9Eyi3vX9"},
+            {"titulo": "Iron Man", "duracao": "5:56", "spotify_link": "https://open.spotify.com/track/68fBhBL89KcEz0P8RzvZ7L"},
+            {"titulo": "Electric Funeral", "duracao": "4:52", "spotify_link": "https://open.spotify.com/track/1hXLAZYYu6BZZxSNE8bv4Y"},
+            {"titulo": "Hand of Doom", "duracao": "7:08", "spotify_link": "https://open.spotify.com/track/4wQwD0bQxgeK1CRaApZYrz"}
+        ]
+    },
+    {
+        "titulo": "Let It Be",
+        "ano_lancamento": 1970,
+        "banda": "The Beatles",
+        "musicas": [
+            {"titulo": "Two of Us", "duracao": "3:33", "spotify_link": "https://open.spotify.com/track/4VmMLLev9UgOpDxPfzDucU"},
+            {"titulo": "Dig a Pony", "duracao": "3:55", "spotify_link": "https://open.spotify.com/track/3MBEtdFRR34c1njGu5peS7"},
+            {"titulo": "Across the Universe", "duracao": "3:49", "spotify_link": "https://open.spotify.com/track/3oqI78FSCUQbJhID8xuRdK"},
+            {"titulo": "I Me Mine", "duracao": "2:26", "spotify_link": "https://open.spotify.com/track/1RWBFF7P2AoM2DnvkgTJKY"},
+            {"titulo": "Dig It", "duracao": "0:51", "spotify_link": "https://open.spotify.com/track/1RWBFF7P2AoM2DnvkgTJKY"},
+            {"titulo": "Let It Be", "duracao": "4:03", "spotify_link": "https://open.spotify.com/track/6Vl4XriT6YkHc3ewxhwKJP"}
+        ]
+    },
+    {
+        "titulo": "News of the World",
+        "ano_lancamento": 1977,
+        "banda": "Queen",
+        "musicas": [
+            {"titulo": "We Will Rock You", "duracao": "2:02", "spotify_link": "https://open.spotify.com/track/6QUEvzRwPpjOiwRvAIjM6I"},
+            {"titulo": "We Are the Champions", "duracao": "2:59", "spotify_link": "https://open.spotify.com/track/5SIhQegXBm6uf0EJ5kNfrO"},
+            {"titulo": "Sheer Heart Attack", "duracao": "3:26", "spotify_link": "https://open.spotify.com/track/5sIXjXyrVr58ByU6Z5G3XD"},
+            {"titulo": "All Dead, All Dead", "duracao": "3:10", "spotify_link": "https://open.spotify.com/track/0QScF1FHPGpQF07A2zZ6lI"},
+            {"titulo": "Spread Your Wings", "duracao": "4:34", "spotify_link": "https://open.spotify.com/track/4FEPNzr14cFSPyDB7s6sQa"},
+            {"titulo": "It's Late", "duracao": "6:26", "spotify_link": "https://open.spotify.com/track/4wBPBPbfMPHBKBK6KF4lNg"}
+        ]
+    },
+    {
+        "titulo": "In Utero",
+        "ano_lancamento": 1993,
+        "banda": "Nirvana",
+        "musicas": [
+            {"titulo": "Serve the Servants", "duracao": "3:36", "spotify_link": "https://open.spotify.com/track/0sn7R5mnGtD2jvlZEIKl4g"},
+            {"titulo": "Heart-Shaped Box", "duracao": "4:39", "spotify_link": "https://open.spotify.com/track/4Yq4J6qQIzg6nB8TqVxa0k"},
+            {"titulo": "Rape Me", "duracao": "2:49", "spotify_link": "https://open.spotify.com/track/6InGqKkalOhyO4JxZyhGOJ"},
+            {"titulo": "Dumb", "duracao": "2:29", "spotify_link": "https://open.spotify.com/track/5bYAGkGDhGXjOHUrEu6T8U"},
+            {"titulo": "Frances Farmer Will Have Her Revenge on Seattle", "duracao": "4:07", "spotify_link": "https://open.spotify.com/track/2GJwFCPrctqlJHuY5mhTJj"},
+            {"titulo": "All Apologies", "duracao": "3:50", "spotify_link": "https://open.spotify.com/track/4Bhsa7PD8eE2A8PDeYdXQc"}
+        ]
+    },
+    {
+        "titulo": "Ride the Lightning",
+        "ano_lancamento": 1984,
+        "banda": "Metallica",
+        "musicas": [
+            {"titulo": "Fight Fire with Fire", "duracao": "4:44", "spotify_link": "https://open.spotify.com/track/6hKsMNvWMbPU9RuaW0yNim"},
+            {"titulo": "Ride the Lightning", "duracao": "6:36", "spotify_link": "https://open.spotify.com/track/3PSA6NHxPvClEFcK9Ryj4G"},
+            {"titulo": "For Whom the Bell Tolls", "duracao": "5:09", "spotify_link": "https://open.spotify.com/track/2dV6I7A0X4h6tKPC4Xfec4"},
+            {"titulo": "Fade to Black", "duracao": "6:57", "spotify_link": "https://open.spotify.com/track/6dGnYIeXmHdcikdzNNDMm2"},
+            {"titulo": "Trapped Under Ice", "duracao": "4:04", "spotify_link": "https://open.spotify.com/track/07aO9RULealIxt8UfAJpt7"},
+            {"titulo": "Escape", "duracao": "4:23", "spotify_link": "https://open.spotify.com/track/3xHIfmKj13FyfAoyFlzatU"}
+        ]
+    },
+    {
+        "titulo": "Highway to Hell",
+        "ano_lancamento": 1979,
+        "banda": "AC/DC",
+        "musicas": [
+            {"titulo": "Highway to Hell", "duracao": "3:28", "spotify_link": "https://open.spotify.com/track/4omisSlTk6Dsq2iQD7MA07"},
+            {"titulo": "Girls Got Rhythm", "duracao": "3:23", "spotify_link": "https://open.spotify.com/track/3izCSrLXbkcIbZtK2NjaVx"},
+            {"titulo": "Walk All Over You", "duracao": "5:08", "spotify_link": "https://open.spotify.com/track/4P81c6V6J0wMPVHjcnhUY4"},
+            {"titulo": "Touch Too Much", "duracao": "4:26", "spotify_link": "https://open.spotify.com/track/3Pey0rBhSUdxh7oqCkrXQn"},
+            {"titulo": "Beating Around the Bush", "duracao": "3:55", "spotify_link": "https://open.spotify.com/track/7qKKzoe6fOKska6BJRP1S7"},
+            {"titulo": "Shot Down in Flames", "duracao": "3:23", "spotify_link": "https://open.spotify.com/track/1vzs9RlNYh4A4pPSQflurP"}
+        ]
+    },
+    {
+        "titulo": "The White Album",
+        "ano_lancamento": 1968,
+        "banda": "The Beatles",
+        "musicas": [
+            {"titulo": "Back in the U.S.S.R.", "duracao": "2:43", "spotify_link": "https://open.spotify.com/track/3htiHNOp1fBkc9IqJyN0Bm"},
+            {"titulo": "Dear Prudence", "duracao": "3:56", "spotify_link": "https://open.spotify.com/track/0vZcNpv9Pa1iHyl2dHivfC"},
+            {"titulo": "Glass Onion", "duracao": "2:17", "spotify_link": "https://open.spotify.com/track/0qBQpKCpPy3jpfGVI11l6B"},
+            {"titulo": "Ob-La-Di, Ob-La-Da", "duracao": "3:08", "spotify_link": "https://open.spotify.com/track/3QVbrC5pvCW5T9RdFpv5qS"},
+            {"titulo": "While My Guitar Gently Weeps", "duracao": "4:45", "spotify_link": "https://open.spotify.com/track/5hR6PNMzttq9Bs37dKwXQa"}
+        ]
+    },
+    {
+        "titulo": "Led Zeppelin III",
+        "ano_lancamento": 1970,
+        "banda": "Led Zeppelin",
+        "musicas": [
+            {"titulo": "Immigrant Song", "duracao": "2:23", "spotify_link": "https://open.spotify.com/track/0FI7lNPDzI5vWkIo7loPHD"},
+            {"titulo": "Friends", "duracao": "3:55", "spotify_link": "https://open.spotify.com/track/4Lf1MyT0GTr8rq29u5TWr8"},
+            {"titulo": "Celebration Day", "duracao": "3:29", "spotify_link": "https://open.spotify.com/track/5fsjBnXe58Nqg6QWQxXlri"},
+            {"titulo": "Since I've Been Loving You", "duracao": "7:24", "spotify_link": "https://open.spotify.com/track/0uLIj6S34MZ1yvP4Z5mJQx"},
+            {"titulo": "Gallows Pole", "duracao": "4:57", "spotify_link": "https://open.spotify.com/track/6U9xjuiXru2WqIgyQodRqg"}
+        ]
+    },
+    {
+        "titulo": "Physical Graffiti",
+        "banda": "Led Zeppelin",
+        "ano_lancamento": 1975,
+        "musicas": [
+            {"titulo": "Custard Pie", "duracao": "4:13", "spotify_link": "https://open.spotify.com/track/2sle5zMqrzGZhl1fIzEs6t"},
+            {"titulo": "The Rover", "duracao": "5:37", "spotify_link": "https://open.spotify.com/track/0GGxgWJ2K2l0qT7zGBaGtv"},
+            {"titulo": "In My Time of Dying", "duracao": "11:04", "spotify_link": "https://open.spotify.com/track/7gVgRQQnbVljvP4ZzvLcDv"},
+            {"titulo": "Houses of the Holy", "duracao": "4:01", "spotify_link": "https://open.spotify.com/track/3oz7llzVfFlG8Qf3Ts3bV0"},
+            {"titulo": "Trampled Under Foot", "duracao": "5:37", "spotify_link": "https://open.spotify.com/track/1nO3y5PzZ77XzPIJn8xGwk"}
+      ]
+    },
+    {
+        "titulo": "Houses of the Holy",
+        "banda": "Led Zeppelin",
+        "ano_lancamento": 1973,
+        "musicas": [
+            {"titulo": "The Song Remains the Same", "duracao": "5:32", "spotify_link": "https://open.spotify.com/track/4uvjOKsp7mufQl4hhCF3S3"},
+            {"titulo": "The Rain Song", "duracao": "7:39", "spotify_link": "https://open.spotify.com/track/1uRxyAup7OYrlh2SHJb80N"},
+            {"titulo": "Over the Hills and Far Away", "duracao": "4:50", "spotify_link": "https://open.spotify.com/track/0wiBpBvPCY75Inn6yPZkyc"},
+            {"titulo": "The Crunge", "duracao": "3:17", "spotify_link": "https://open.spotify.com/track/0vKkBm76F4yw5pM6Ewn8X3"},
+            {"titulo": "Dancing Days", "duracao": "3:43", "spotify_link": "https://open.spotify.com/track/6Hhggbt31w24CjMqtejPE2"}
+      ]
+    },
+    {
+        "titulo": "Led Zeppelin II",
+        "banda": "Led Zeppelin",
+        "ano_lancamento": 1969,
+        "musicas": [
+            {"titulo": "Whole Lotta Love", "duracao": "5:34", "spotify_link": "https://open.spotify.com/track/6JWc4iAiJ9FjyK0B59ABb4"},
+            {"titulo": "What Is and What Should Never Be", "duracao": "4:46", "spotify_link": "https://open.spotify.com/track/2o3SbkU2v6pVZvzrSsOS3Y"},
+            {"titulo": "The Lemon Song", "duracao": "6:20", "spotify_link": "https://open.spotify.com/track/7y61MJA0d8nAs26G7V5aQL"},
+            {"titulo": "Thank You", "duracao": "4:49", "spotify_link": "https://open.spotify.com/track/3QTDIA3NtvMwv7mbLr8Pnd" },
+            {"titulo": "Heartbreaker", "duracao": "4:14", "spotify_link": "https://open.spotify.com/track/7BA6v8NmtQR4vjLcSQ6O1H"}
+      ]
+    }
+]
+

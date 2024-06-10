@@ -1,0 +1,28 @@
+{% extends 'bandas/layout.html' %}
+{% block content %}
+    <body class = "menu">
+    </body>
+    <h3 id="titulo-index">Bandas de todo o mundo</h3>
+
+    {% for banda in bandas %}
+
+        {% if banda.foto %}
+            <p id = "foto"> <img src = '{{banda.foto.url}}' style="max-width: 10%;"></p>
+        {% else %}
+            <p>Nenhuma foto disponível</p>
+        {% endif %}
+        <li>
+        <a href = "{% url 'bandas:banda' banda.id %}"> {{banda.nome}}</a>
+
+        {% if user.is_authenticated and perms.bandas.change_banda %}
+            <small><a href ="{% url 'bandas:edita_banda' banda.id %}">(Editar)</a></small>
+        {% endif %}
+
+        </li>
+
+    {% endfor %}
+
+    {% if user.is_authenticated and perms.bandas.create_banda %}
+        <a href="{% url 'bandas:nova_banda' %}"><button>Inserir nova Banda</button></a>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As minhas músicas favoritas(neste momento)</title>
+    <style>
+        body {
+            background: Black ;
+            color: White;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Vou partilhar o meu gosto músical com vocês!</h1>
+    </header>
+
+    <main>
+        <h2>Aqui vamos nós!!!</h2>
+        <p>Aqui está uma lista de músicas que ando a ouvir ultimamente, espero que gostem:</p>
+        <ol>
+            <li><strong> Intergalactic Janet </strong>  Por: Ley Soul </li>
+            <li><strong> Starman </strong>  Por: David Bowie </li>
+            <li><strong> Black Hole Sun </strong>  Por: Soundgarden </li>
+        </ol>
+        <p> Clica nos link para saberes mais sobre os artistas </p>
+
+        <nav>
+        <a href="{% url 'novaapp:LeySoul' %}">Ley Soul</a>
+        </nav>
+        <nav>
+        <a href="{% url 'novaapp:DavidBowie' %}">David Bowie</a>
+        </nav>
+        <nav>
+        <a href="{% url 'novaapp:Soundgarden' %}">Soundgarden</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Programação Web, Universidade Lusófona - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

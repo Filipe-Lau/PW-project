@@ -1,0 +1,258 @@
+/* Defina a paleta de cores */
+:root {
+    --primary-color: #3498db; /* Azul */
+    --secondary-color: #2ecc71; /* Verde */
+    --hover-color: #e74c3c; /* Vermelho */
+    --active-color: #9b59b6; /* Roxo */
+}
+
+/* Estilos para os links do menu */
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* Estilos para os links visitados */
+nav a:visited {
+    color: var(--secondary-color);
+}
+
+/* Estilos para os links ao passar o mouse */
+nav a:hover {
+    color: var(--hover-color);
+}
+
+/* Estilos para os links ativos */
+nav a:active {
+    color: var(--active-color);
+}
+
+/* Efeitos com before e after ao passar o mouse */
+nav a::before,
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--hover-color);
+    transition: width 0.3s;
+}
+
+nav a::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav a::after {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+nav a:hover::before,
+nav a:hover::after {
+    width: 100%;
+}
+
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    color: #333; /* Cor do texto */
+}
+
+#titulo-index{
+    margin:2;
+    font-size:30px;
+}
+
+.helptext{
+    font-size: 12px; /* Define letras menores */
+    color: #888; /* Define uma cor mais clara */
+    display: block; /* Garante que o texto seja exibido como bloco */
+    margin-top: 5px; /* Espaçamento superior */
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+
+.menu{
+    background-color: #f1ba34; /* Cor de fundo da página */
+    background-image: url("https://cdn.pixabay.com/photo/2023/09/01/22/16/keyboard-8227845_1280.png");
+    background-size: 70%; /* Ajusta a imagem ao tamanho do contêiner */
+    background-repeat: no-repeat; /* Não repete a imagem de fundo */
+    background-position: 450px -250px; /* Ajusta a posição da imagem de fundo */
+    height: 100vh; /* Ajusta a altura do contêiner ao tamanho da janela */
+    width: 100%; /* Ajusta a largura do contêiner */
+}
+
+.banda{
+    background-color: #f1ba34; /* Cor de fundo da página */
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/19/12/00/guitar-5190427_1280.png");
+    background-size: 25%; /* Ajusta a imagem ao tamanho do contêiner */
+    background-repeat: no-repeat; /* Não repete a imagem de fundo */
+    background-position: 1100px 0px; /* Ajusta a posição da imagem de fundo */
+    height: 100vh; /* Ajusta a altura do contêiner ao tamanho da janela */
+    width: 100%; /* Ajusta a largura do contêiner */
+}
+
+.album{
+    background-color: #f1ba34; /* Cor de fundo da página */
+    background-image: url("https://cdn.pixabay.com/photo/2022/05/11/15/34/remote-controller-7189624_1280.png");
+    background-size: 50%; /* Ajusta a imagem ao tamanho do contêiner */
+    background-repeat: no-repeat; /* Não repete a imagem de fundo */
+    background-position: 600px 250px; /* Ajusta a posição da imagem de fundo */
+    height: 100vh; /* Ajusta a altura do contêiner ao tamanho da janela */
+    width: 100%; /* Ajusta a largura do contêiner */
+}
+
+.musica{
+    background-color: #f1ba34; /* Cor de fundo da página */
+    background-image: url("https://cdn.pixabay.com/photo/2012/04/13/13/23/disc-32390_1280.png");
+    background-size: 30%; /* Ajusta a imagem ao tamanho do contêiner */
+    background-repeat: no-repeat; /* Não repete a imagem de fundo */
+    background-position: 1400px 500px; /* Ajusta a posição da imagem de fundo */
+    height: 102vh; /* Ajusta a altura do contêiner ao tamanho da janela */
+    width: 100%; /* Ajusta a largura do contêiner */
+}
+
+img{
+    width: fit-content;
+    border: 2px solid purple;
+    border-width: 5px; /* Adjust the border width as needed */
+}
+
+.middle{
+    text-align:center;
+}
+
+.topright{
+    top: 8;
+    right: 25;
+    position: absolute;
+}
+.topleft{
+    top: 20;
+    left: 25;
+    position: absolute;
+}
+
+#menu-link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* Estilos para os links visitados */
+#menu-link:visited {
+    color: black;
+}
+
+/* Estilos para os links ao passar o mouse */
+#menu-link:hover {
+    color: black;
+}
+
+/* Estilos para os links ativos */
+#menu-link:active {
+    color: black;
+}
+
+/* Efeitos com before e after ao passar o mouse */
+#menu-link::before,
+#menu-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s;
+}
+
+#menu-link::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#menu-link::after {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+#menu-link:hover::before,
+#menu-link:hover::after {
+    width: 100%;
+}
+
+.bio {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 15px;
+}
+.bio::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #864313;
+}
+.bio::first-line {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0A4522;
+}
+
+ .container > * {
+
+
+}
+
+header{grid-area: header;}
+nav{grid-area: nav;}
+main{grid-area: main;}
+footer{grid-area: footer;}
+
+
+div.container{
+    height:900px;
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'main   main   main'
+    'footer footer footer';
+
+    gap:10px;
+
+    grid-template-columns:20vw 3fr 2fr;
+    grid-template-rows:15vh 1fr 60px;
+
+}
+
+@media (max-width = 600px) {
+    div.container{
+        height:900px;
+        grid-template-areas:
+        'header'
+        'main'
+        'footer';
+        grid-template-columns:auto;
+        grid-template-rows:15vh 10vh 2fr 1fr 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
