@@ -12,6 +12,23 @@ body {
     height: 100vh;
 }
 
+a{
+    color:blue;
+    text-decoration:none;
+}
+
+a:visited{
+    color:blue;
+}
+
+#sun {
+    color: blue;
+    text-decoration: none;
+    font-size:24px;
+}
+#sun:visited {
+    color: blue;
+}
 .fa-house {
     color: blue;
     text-decoration: none;
